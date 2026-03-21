@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Débarcadères — Réserve faunique Duchénier</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#f0f2f5;color:#2c3e50;padding:16px}
+header{background:#1a5276;color:#fff;padding:16px 20px;border-radius:8px;margin-bottom:16px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px}
+header h1{font-size:1.2em;font-weight:600}
+.maj{font-size:.82em;opacity:.8}
+.cartes{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:16px}
+.carte{background:#fff;border-radius:8px;padding:12px 16px;flex:1;min-width:100px;text-align:center;box-shadow:0 1px 4px rgba(0,0,0,.08);border-top:4px solid #ccc}
+.carte.total{border-color:#1a5276}
+.carte.debarre{border-color:#2ecc71}
+.carte.barre{border-color:#e74c3c}
+.carte.endommage{border-color:#e67e22}
+.carte.verifier{border-color:#f1c40f}
+.carte.horsaison{border-color:#95a5a6}
+.chiffre{font-size:1.9em;font-weight:700}
+.libelle{font-size:.75em;color:#7f8c8d;margin-top:3px}
+.wrap{background:#fff;border-radius:8px;box-shadow:0 1px 4px rgba(0,0,0,.08);overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:.88em}
+thead tr{background:#1a5276;color:#fff}
+th{padding:9px 13px;text-align:left;white-space:nowrap;font-weight:500}
+tbody tr{border-bottom:1px solid #ecf0f1}
+tbody tr:hover{background:#f8f9fa}
+td{padding:8px 13px;vertical-align:middle}
+td.ctr{text-align:center}
+td.notes{font-size:.82em;color:#7f8c8d;max-width:180px}
+.badge{display:inline-block;padding:2px 9px;border-radius:10px;font-size:.8em;font-weight:600;white-space:nowrap}
+footer{text-align:center;margin-top:16px;font-size:.75em;color:#95a5a6}
+@media(max-width:600px){th,td{padding:6px 8px}.chiffre{font-size:1.4em}}
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <h1>🚣 Débarcadères — Réserve faunique Duchénier</h1>
+    <div class="maj">Saison 2026</div>
+  </div>
+  <div class="maj">Mise à jour : 2026-03-20 22:14</div>
+</header>
+
+<div class="cartes">
+  <div class="carte total"><div class="chiffre">42</div><div class="libelle">En gestion</div></div>
+  <div class="carte debarre"><div class="chiffre">0</div><div class="libelle">Débarrés</div></div>
+  <div class="carte barre"><div class="chiffre">0</div><div class="libelle">Barrés</div></div>
+  <div class="carte endommage"><div class="chiffre">0</div><div class="libelle">Endommagés</div></div>
+  <div class="carte verifier"><div class="chiffre">0</div><div class="libelle">À vérifier</div></div>
+  <div class="carte horsaison"><div class="chiffre">42</div><div class="libelle">Hors saison</div></div>
+</div>
+
+<div class="wrap">
+  <table>
+    <thead>
+      <tr>
+        <th>Lac</th><th>Type</th><th>Chaloupes</th>
+        <th>Statut</th><th>Employé</th><th>Date action</th><th>Notes</th>
+      </tr>
+    </thead>
+    <tbody>
+            <tr>
+                <td><strong>BOUCHER (M)</strong></td>
+                <td>—</td>
+                <td class="ctr">2</td>
+                <td><span class="badge" style="background:#95a5a6;color:#fff">– Hors saison</span></td>
+                <td>—</td>
+                <td>—</td>
+                <td class="notes">—</td>
+            </tr>
+            <tr>
+                <td><strong>BÉBÉ</strong></td>
+                <td>Fixe</td>
+                <td class="ctr">2</td>
+                <td><span class="badge" style="background:#95a5a6;color:#fff">– Hors saison</span></td>
+                <td>—</td>
+                <td>—</td>
+                <td class="notes">—</td>
+            </tr>
+            <tr>
+                <td><strong>GRAND TRINITÉ (M)</strong></td>
+                <td>—</td>
+                <td class="ctr">1</td>
+                <td><span class="badge" style="background:#95a5a6;color:#fff">– Hors saison</span></td>
+                <td>—</td>
+                <td>—</td>
+                <td class="notes">—</td>
+            </tr>
+            <tr>
+                <td><strong>LANDRY (M)</strong></td>
+                <td>Flottant</td>
+                <td class="ctr">2</td>
+                <td><span class="badge" style="background:#95a5a6;color:#fff">– Hors saison</span></td>
+                <td>—</td>
+                <td>—</td>
+                <td class="notes">—</td>
+            </tr>
+            <tr>
+                <td><strong>PERCHE</strong></td>
+                <td>Flottant</td>
+                <td class="ctr">2</td>
+                <td><span class="badge" style="background:#95a5a6;color:#fff">– Hors saison</span></td>
+                <td>—</td>
+                <td>—</td>
+                <td class="notes">—</td>
+            </tr>
+            <tr>
+                <td><strong>PETIT TRINITÉ (M)</strong></td>
+                <td>—</td>
+                <td class="ctr">1</td>
+                <td><span class="badge" style="background:#95a5a6;color:#fff">– Hors saison</span></td>
+                <td>—</td>
+                <td>—</td>
+                <td class="notes">—</td>
+            </tr>
+            <tr>
+                <td><strong>TOURADI</strong></td>
+                <td>Flottant</td>
+                <td class="ctr">2</td>
+                <td><span class="badge" style="background:#95a5a6;color:#fff">– Hors saison</span></td>
+                <td>—</td>
+                <td>—</td>
+                <td class="notes">—</td>
+            </tr>
+            <tr>
+                <td><strong>TOURADI</strong></td>
+                <td>Flottant</td>
+                <td class="ctr">2</td>
+                <td><span class="badge" style="background:#95a5a6;color:#fff">– Hors saison</span></td>
+                <td>—</td>
+                <td>—</td>
+                <td class="notes">—</td>
+            </tr>
+            <tr>
+                <td><strong>TOURADI</strong></td>
+                <td>—</td>
+                <td class="ctr">3</td>
+                <td><span class="badge" style="background:#95a5a6;color:#fff">– Hors saison</span></td>
+                <td>—</td>
+                <td>—</td>
+                <td class="notes">—</td>
+            </tr>
+            <tr>
+                <td><strong>TOURADI</strong></td>
+                <td>—</td>
+                <td class="ctr">4</td>
+                <td><span class="badge" style="background:#95a5a6;color:#fff">– Hors saison</span></td>
+                <td>—</td>
+                <td>—</td>
+                <td class="notes">—</td>
+            </tr>
+            <tr>
+                <td><strong>TOURADI / TOURADI (Journalière)</strong></td>
+                <td>Flottant</td>
+                <td class="ctr">3</td>
+                <td><span class="badge" style="background:#95a5a6;color:#fff">– Hors saison</span></td>
+                <td>—</td>
+                <td>—</td>
+                <td class="notes">—</td>
+            </tr>
+            <tr>
+                <td><strong>BAIES</strong></td>
+                <td>Flottant</td>
+                <td class="ctr">2</td>
+                <td><span class="badge" style="background:#95a5a6;color:#fff">– Hors saison</span></td>
+                <td>—</td>
+                <td>—</td>
+                <td class="notes">—</td>
+            </tr>
+            <tr>
+                <td><strong>BAIES</strong></td>
+                <td>Fixe</td>
+                <td class="ctr">4</td>
+                <td><span class="badge" style="background:#95a5a6;color:#fff">– Hors saison</span></td>
+                <td>—</td>
+                <td>—</td>
+                <td class="notes">—</td>
+            </tr>
+            <tr>
+                <td><strong>BAIES</strong></td>
+                <td>Fixe</td>
+                <td class="ctr">3</td>
+                <td><span class="badge" style="background:#95a5a6;color:#fff">– Hors saison</span></td>
+                <td>—</td>
+                <td>—</td>
+                <td class="notes">—</td>
+            </tr>
+            <tr>
+                <td><strong>BAIES</strong></td>
+                <td>Fixe</td>
+                <td class="ctr">3</td>
+                <td><span class="badge" style="background:#95a5a6;color:#fff">– Hors saison</span></td>
+                <td>—</td>
+                <td>—</td>
+                <td class="notes">—</td>
+            </tr>
+            <tr>
+                <td><strong>BAIES</strong></td>
+                <td>Flottant</td>
+                <td class="ctr">3</td>
+                <td><span class="badge" style="background:#95a5a6;color:#fff">– Hors saison</span></td>
+                <td>—</td>
+                <td>—</td>
+                <td class="notes">—</td>
+            </tr>
+            <tr>
+                <td><strong>BLANC *</strong></td>
+                <td>Flottant</td>
+                <td class="ctr">1</td>
+                <td><span class="badge" style="background:#95a5a6;color:#fff">– Hors saison</span></td>
+                <td>—</td>
+                <td>—</td>
+                <td class="notes">—</td>
+            </tr>
+            <tr>
+                <td><strong>COSSETTE</strong></td>
+                <td>Fixe</td>
+                <td class="ctr">3</td>
+                <td><span class="badge" style="background:#95a5a6;color:#fff">– Hors saison</span></td>
+                <td>—</td>
+                <td>—</td>
+                <td class="notes">—</td>
+            </tr>
+            <tr>
+                <td><strong>COSSETTE</strong></td>
+                <td>—</td>
+                <td class="ctr">2</td>
+                <td><span class="badge" style="background:#95a5a6;color:#fff">– Hors saison</span></td>
+                <td>—</td>
+                <td>—</td>
+                <td class="notes">—</td>
+            </tr>
+            <tr>
+                <td><strong>CRISTAL</strong></td>
+                <td>—</td>
+                <td class="ctr">1</td>
+                <td><span class="badge" style="background:#95a5a6;color:#fff">– Hors saison</span></td>
+                <td>—</td>
+                <td>—</td>
+                <td class="notes">—</td>
+            </tr>
+            <tr>
+                <td><strong>DUGAS</strong></td>
+                <td>Flottant</td>
+                <td class="ctr">2</td>
+                <td><span class="badge" style="background:#95a5a6;color:#fff">– Hors saison</span></td>
+                <td>—</td>
+                <td>—</td>
+                <td class="notes">—</td>
+            </tr>
+            <tr>
+                <td><strong>LONG #1</strong></td>
+                <td>Flottant</td>
+                <td class="ctr">2</td>
+                <td><span class="badge" style="background:#95a5a6;color:#fff">– Hors saison</span></td>
+                <td>—</td>
+                <td>—</td>
+                <td class="notes">—</td>
+            </tr>
+            <tr>
+                <td><strong>LONG #2</strong></td>
+                <td>Flottant</td>
+                <td class="ctr">2</td>
+                <td><span class="badge" style="background:#95a5a6;color:#fff">– Hors saison</span></td>
+                <td>—</td>
+                <td>—</td>
+                <td class="notes">—</td>
+            </tr>
+            <tr>
+                <td><strong>MARTRES</strong></td>
+                <td>Fixe</td>
+                <td class="ctr">2</td>
+                <td><span class="badge" style="background:#95a5a6;color:#fff">– Hors saison</span></td>
+                <td>—</td>
+                <td>—</td>
+                <td class="notes">—</td>
+            </tr>
+            <tr>
+                <td><strong>ROND</strong></td>
+                <td>Fixe</td>
+                <td class="ctr">1</td>
+                <td><span class="badge" style="background:#95a5a6;color:#fff">– Hors saison</span></td>
+                <td>—</td>
+                <td>—</td>
+                <td class="notes">—</td>
+            </tr>
+            <tr>
+                <td><strong>ANDRÉ</strong></td>
+                <td>Flottant</td>
+                <td class="ctr">2</td>
+                <td><span class="badge" style="background:#95a5a6;color:#fff">– Hors saison</span></td>
+                <td>—</td>
+                <td>—</td>
+                <td class="notes">—</td>
+            </tr>
+            <tr>
+                <td><strong>Culotte</strong></td>
+                <td>Fixe</td>
+                <td class="ctr">2</td>
+                <td><span class="badge" style="background:#95a5a6;color:#fff">– Hors saison</span></td>
+                <td>—</td>
+                <td>—</td>
+                <td class="notes">—</td>
+            </tr>
+            <tr>
+                <td><strong>Richard</strong></td>
+                <td>—</td>
+                <td class="ctr">2</td>
+                <td><span class="badge" style="background:#95a5a6;color:#fff">– Hors saison</span></td>
+                <td>—</td>
+                <td>—</td>
+                <td class="notes">—</td>
+            </tr>
+            <tr>
+                <td><strong>VILMONT</strong></td>
+                <td>Flottant</td>
+                <td class="ctr">2</td>
+                <td><span class="badge" style="background:#95a5a6;color:#fff">– Hors saison</span></td>
+                <td>—</td>
+                <td>—</td>
+                <td class="notes">—</td>
+            </tr>
+            <tr>
+                <td><strong>de l'ÉQUERRE (M)</strong></td>
+                <td>—</td>
+                <td class="ctr">2</td>
+                <td><span class="badge" style="background:#95a5a6;color:#fff">– Hors saison</span></td>
+                <td>—</td>
+                <td>—</td>
+                <td class="notes">—</td>
+            </tr>
+            <tr>
+                <td><strong>BRILLANT</strong></td>
+                <td>Flottant</td>
+                <td class="ctr">1</td>
+                <td><span class="badge" style="background:#95a5a6;color:#fff">– Hors saison</span></td>
+                <td>—</td>
+                <td>—</td>
+                <td class="notes">—</td>
+            </tr>
+            <tr>
+                <td><strong>CARIBOU</strong></td>
+                <td>Flottant</td>
+                <td class="ctr">1</td>
+                <td><span class="badge" style="background:#95a5a6;color:#fff">– Hors saison</span></td>
+                <td>—</td>
+                <td>—</td>
+                <td class="notes">—</td>
+            </tr>
+            <tr>
+                <td><strong>CARRÉ</strong></td>
+                <td>Flottant</td>
+                <td class="ctr">1</td>
+                <td><span class="badge" style="background:#95a5a6;color:#fff">– Hors saison</span></td>
+                <td>—</td>
+                <td>—</td>
+                <td class="notes">—</td>
+            </tr>
+            <tr>
+                <td><strong>CROCHE</strong></td>
+                <td>Flottant</td>
+                <td class="ctr">1</td>
+                <td><span class="badge" style="background:#95a5a6;color:#fff">– Hors saison</span></td>
+                <td>—</td>
+                <td>—</td>
+                <td class="notes">—</td>
+            </tr>
+            <tr>
+                <td><strong>CÈDRES/PERCHE (à la) / LÂCHE</strong></td>
+                <td>Fixe</td>
+                <td class="ctr">2</td>
+                <td><span class="badge" style="background:#95a5a6;color:#fff">– Hors saison</span></td>
+                <td>—</td>
+                <td>—</td>
+                <td class="notes">—</td>
+            </tr>
+            <tr>
+                <td><strong>G.TRUITES 1</strong></td>
+                <td>Flottant</td>
+                <td class="ctr">2</td>
+                <td><span class="badge" style="background:#95a5a6;color:#fff">– Hors saison</span></td>
+                <td>—</td>
+                <td>—</td>
+                <td class="notes">—</td>
+            </tr>
+            <tr>
+                <td><strong>G.TRUITES 2</strong></td>
+                <td>Flottant</td>
+                <td class="ctr">1</td>
+                <td><span class="badge" style="background:#95a5a6;color:#fff">– Hors saison</span></td>
+                <td>—</td>
+                <td>—</td>
+                <td class="notes">—</td>
+            </tr>
+            <tr>
+                <td><strong>G.TRUITES 3</strong></td>
+                <td>Flottant</td>
+                <td class="ctr">2</td>
+                <td><span class="badge" style="background:#95a5a6;color:#fff">– Hors saison</span></td>
+                <td>—</td>
+                <td>—</td>
+                <td class="notes">—</td>
+            </tr>
+            <tr>
+                <td><strong>MANLEY</strong></td>
+                <td>Fixe</td>
+                <td class="ctr">1</td>
+                <td><span class="badge" style="background:#95a5a6;color:#fff">– Hors saison</span></td>
+                <td>—</td>
+                <td>—</td>
+                <td class="notes">—</td>
+            </tr>
+            <tr>
+                <td><strong>ORIGNAL</strong></td>
+                <td>Flottant</td>
+                <td class="ctr">2</td>
+                <td><span class="badge" style="background:#95a5a6;color:#fff">– Hors saison</span></td>
+                <td>—</td>
+                <td>—</td>
+                <td class="notes">—</td>
+            </tr>
+            <tr>
+                <td><strong>PINS *</strong></td>
+                <td>Flottant</td>
+                <td class="ctr">2</td>
+                <td><span class="badge" style="background:#95a5a6;color:#fff">– Hors saison</span></td>
+                <td>—</td>
+                <td>—</td>
+                <td class="notes">—</td>
+            </tr>
+            <tr>
+                <td><strong>ÉTROIT</strong></td>
+                <td>Flottant</td>
+                <td class="ctr">2</td>
+                <td><span class="badge" style="background:#95a5a6;color:#fff">– Hors saison</span></td>
+                <td>—</td>
+                <td>—</td>
+                <td class="notes">—</td>
+            </tr></tbody>
+  </table>
+</div>
+
+<footer>Réserve faunique Duchénier · Données terrain via QFieldCloud</footer>
+</body>
+</html>
